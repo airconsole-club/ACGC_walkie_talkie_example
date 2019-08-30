@@ -31,13 +31,13 @@ public class walkie_talkie : MonoBehaviour {
 			Debug.Log("player 2 id:"+AirConsole.instance.ConvertPlayerNumberToDeviceId(2));
 										AirConsole.instance.Message(
 											1,//AirConsole.instance.ConvertPlayerNumberToDeviceId(0), 
-											"hello world[0], you are a tiny bitch");
+											"hello world[0]");
 										AirConsole.instance.Message(
 											2,//AirConsole.instance.ConvertPlayerNumberToDeviceId (1) , 
-											"hello world[1], you are a tiny bitch");
+											"hello world[1]");
 										AirConsole.instance.Message(
 											3,//AirConsole.instance.ConvertPlayerNumberToDeviceId (2) , 
-											"hello world[2], you are a tiny bitch");
+											"hello world[2]");
 
 			AirConsole.instance.Broadcast("hello world");
 		}
